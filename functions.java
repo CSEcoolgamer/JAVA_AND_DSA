@@ -18,8 +18,20 @@ public class functions{
 */
 
         // sum();
+
+//      To print the message:
         String message = greet();
         System.out.println("THE MESSAGE IS: " + message);
+
+//       To print sum3:
+        int ans = sum3( 45 , 80);
+        System.out.println("The sum of 2 numbers are: " +ans);
+
+//       To print myGreet() which contains values:
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name = in.next();
+
     }
 
 
@@ -39,8 +51,17 @@ public class functions{
 
 */
 
+
     static String greet(){
         String greeting = "How are you ?" ;
         return greeting;
     }
+
+
+    static int sum3(int a , int b){
+        int sum = a+b;
+        return sum;
+    }
+
+
 }
