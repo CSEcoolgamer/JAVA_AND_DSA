@@ -1,3 +1,4 @@
+package functions_in_java;
 import java.util.Scanner;
 public class functions{
     public static void main(String[] args) {
@@ -29,9 +30,11 @@ public class functions{
 
 //       To print myGreet() which contains values:
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter your name: ");
-        String name = in.next();
-
+        System.out.print("Enter your name: ");
+        String naam = in.next();
+        String personalized = myGreet(naam);
+        System.out.println("The message is: " + personalized);
+    
     }
 
 
@@ -61,6 +64,13 @@ public class functions{
     static int sum3(int a , int b){
         int sum = a+b;
         return sum;
+    }
+
+
+    static String myGreet(String name){
+        String message ="Hello! " + name;
+        return message;
+
     }
 
 
