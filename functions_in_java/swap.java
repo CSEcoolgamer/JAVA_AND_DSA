@@ -25,7 +25,7 @@ public class swap {
     }
 
     static void changeName(String naam) {
-        naam = "Nitesh Rana"; // creating a new object
+        naam = "Nitesh Rana"; // creating a new object                --> As strings are immutuable.
     }
 
     static void swap(int num1, int num2) {

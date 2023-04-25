@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "Count_occur",
+            "request": "launch",
+            "mainClass": "Count_occur",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci_number",
+            "request": "launch",
+            "mainClass": "Fibonacci_number",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_the_number",
+            "request": "launch",
+            "mainClass": "Reverse_the_number",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "Switch_case",
+            "request": "launch",
+            "mainClass": "Switch_case",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "caseCheck",
+            "request": "launch",
+            "mainClass": "caseCheck",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "conditionals_and_loops",
+            "request": "launch",
+            "mainClass": "conditionals_and_loops",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "changeValue",
+            "request": "launch",
+            "mainClass": "functions_in_java.changeValue",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "functions",
+            "request": "launch",
+            "mainClass": "functions_in_java.functions",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "scope",
+            "request": "launch",
+            "mainClass": "functions_in_java.scope",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "functions_in_java.swap",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
+            "name": "temperature_converter",
+            "request": "launch",
+            "mainClass": "temperature_converter",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        }
+    ]
+}
