@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "shadowing",
+            "request": "launch",
+            "mainClass": "functions_in_java.shadowing",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
