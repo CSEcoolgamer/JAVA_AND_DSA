@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "overloading",
+            "request": "launch",
+            "mainClass": "functions_in_java.overloading",
+            "projectName": "JAVA_AND_DSA_a6f94ccf"
+        },
+        {
+            "type": "java",
             "name": "VarArgs",
             "request": "launch",
             "mainClass": "functions_in_java.VarArgs",
