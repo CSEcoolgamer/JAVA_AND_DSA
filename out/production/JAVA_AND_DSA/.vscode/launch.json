@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "questionPrimenumber",
-            "request": "launch",
-            "mainClass": "functions_in_java.questionPrimenumber",
-            "projectName": "JAVA_AND_DSA_6ad40ee"
-        },
-        {
-            "type": "java",
             "name": "overloading",
             "request": "launch",
             "mainClass": "functions_in_java.overloading",
