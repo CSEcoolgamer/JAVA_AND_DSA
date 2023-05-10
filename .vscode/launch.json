@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "questionArmstrongnumber",
+            "request": "launch",
+            "mainClass": "functions_in_java.questionArmstrongnumber",
+            "projectName": "JAVA_AND_DSA_6ad40ee"
+        },
+        {
+            "type": "java",
             "name": "questionPrimenumber",
             "request": "launch",
             "mainClass": "functions_in_java.questionPrimenumber",
