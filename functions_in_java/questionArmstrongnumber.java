@@ -16,6 +16,7 @@ public class questionArmstrongnumber {
 
         // 3-digit Armstrong Number ...
         for (int i=100; i<1000; i++){
+            
             if(isArmstrong(i)){
                 System.out.print(i + " ");
             }
@@ -23,7 +24,6 @@ public class questionArmstrongnumber {
 
            
     }
-
     // checking which number is armstrong ..
     static boolean isArmstrong(int n){
         int original = n;
