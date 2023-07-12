@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "multidimensional",
+            "request": "launch",
+            "mainClass": "multidimensional",
+            "projectName": "JAVA_AND_DSA_ac00f2d9"
+        },
+        {
+            "type": "java",
+            "name": "input",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "JAVA_AND_DSA_ac00f2d9"
+        },
+        {
+            "type": "java",
             "name": "questionArmstrongnumber",
             "request": "launch",
             "mainClass": "functions_in_java.questionArmstrongnumber",

@@ -18,9 +18,9 @@ public class input{
 
 
         // input using for loops
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = in.nextInt();
-        }
+        // for (int i = 0; i < arr.length; i++) {
+        //     arr[i] = in.nextInt();
+        // }
 //
 //        System.out.println(Arrays.toString(arr));
 
@@ -34,6 +34,7 @@ public class input{
 
 //        System.out.println(arr[5]); // index out of bound error
 
+
         // array of objects
         String[] str = new String[4];
         for (int i = 0; i < str.length; i++) {
@@ -46,7 +47,19 @@ public class input{
         str[1] = "sachin";
 
         System.out.println(Arrays.toString(str));
-               
 
+
+
+        // PASSING IN FUNCTION
+        int[] nums ={3 ,4, 5, 12};
+        System.out.println(Arrays.toString(nums));
+        change(nums);
+        System.out.println(Arrays.toString(nums));
+               
     }
+
+    static void change(int[] arr){
+        arr[0] = 99;
+    }
+
 }
