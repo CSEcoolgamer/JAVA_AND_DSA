@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "linear_search",
+            "request": "launch",
+            "mainClass": "Linear_Search.linear_search",
+            "projectName": "JAVA_AND_DSA_ac00f2d9"
+        },
+        {
+            "type": "java",
             "name": "swapandreverse",
             "request": "launch",
             "mainClass": "swapandreverse",
